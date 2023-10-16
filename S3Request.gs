@@ -21,7 +21,7 @@ function S3Request(service) {
 
   this.date = new Date();
   this.serviceName = 's3';
-  this.region = 'us-east-1';
+  this.region = 'ap-northeast-2';
   this.expiresHeader = 'presigned-expires';
   this.extQueryString = '';
 }
